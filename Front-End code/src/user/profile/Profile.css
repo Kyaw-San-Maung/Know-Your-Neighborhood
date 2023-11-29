@@ -1,0 +1,70 @@
+.profile-container {
+    padding-top: 40px;
+}
+
+.subprofile-container{
+    background-color: #EEEEEE; 
+    border-radius: 15px;
+}
+
+ .shop-btn{
+    text-align: right;
+    margin-right: 9rem;
+}
+
+.shop-btn .addBtn{
+    padding: 7px 15px;
+    font-weight: 800;
+    background-color: #33BBC5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-info {
+    display: flex;
+    text-align: left;
+    padding: 50px;
+   
+}
+
+.profile-info .profile-avatar img {
+    border-radius: 50%;
+    max-width: 250px;
+    margin-right: 25px;
+}
+
+.profile-info .profile-name {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.profile-info .profile-email {
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.text-avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    background: #46b5e5;
+    background: linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -ms-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -moz-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -o-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -webkit-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+}
+
+.text-avatar span {
+    line-height: 200px;
+    color: #fff;
+    font-size: 3em;
+}

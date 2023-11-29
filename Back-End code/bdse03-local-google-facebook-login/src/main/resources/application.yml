@@ -1,0 +1,35 @@
+spring:
+  security:
+      oauth2:
+        client:
+          registration:
+            google:
+              clientId: 937734934450-f1pquqrn1slgsssbe68u4rd2ghfb7975.apps.googleusercontent.com
+              clientSecret: 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
+              redirectUri: http://localhost:8080/oauth2/callback/google
+              scope:
+                - email
+                - profile
+            facebook:
+              clientId: 2646650138833741
+              clientSecret: 970f342c36cc1a5f0c1032b031ddc9a4
+              redirectUri: http://localhost:8080/oauth2/callback/facebook
+              scope:
+                - email
+                - public_profile  
+          provider:
+            facebook:
+              authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
+              tokenUri: https://graph.facebook.com/v3.0/oauth/access_token
+              userInfoUri: https://graph.facebook.com/v3.0/me?fields=name,email,picture.width(250).height(250)               
+app:
+  auth:
+    tokenSecret: mdseapiintegrationdevelopment
+    tokenExpirationMsec: 864000
+    
+  oauth2:
+    # After successfully authenticating with the OAuth2 Provider,
+    # we'll be generating an auth token for the user and sending the token to the
+    # redirectUri mentioned by the client in the /oauth2/authorize request.
+    authorizedRedirectUris:
+    - http://localhost:3000/oauth2/redirect

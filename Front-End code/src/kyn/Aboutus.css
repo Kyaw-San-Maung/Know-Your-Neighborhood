@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+.about-container{
+    padding: 35px;
+    background-color: #33BBC5;
+    text-align: center;
+}
+.about-container p{
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.aboutusFeature{
+    margin: 65px 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutusFeature p{
+    width: 65%;
+    justify-content: left;
+    font-weight: 600;
+}
+.aboutusFeature img{
+    background-color: blanchedalmond;
+    width: 24%;
+}

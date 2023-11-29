@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+.app-header {
+    font-family: Poppins;
+   height: 95px;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.app-title {
+    font-weight: bolder;
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.8rem;
+    color: #33BBC5;
+    margin-top: 10px;
+}
+
+.app-title:hover{
+    color: #33BBC5;
+}
+
+.app-branding {
+    float: left;
+    margin-top: 20px;
+}
+
+.app-options {
+    float: right;
+    margin-top: 20px;
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-nav ul li a {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.app-nav ul li a:hover {
+    color: #33BBC5;
+}
+
+.app-nav ul li a.active {
+    color: #33BBC5;
+}
+
+.signbtn{
+    border: 1px solid #33BBC5;
+    background-color: black;
+    font-weight: bolder;
+    margin-left: 75px;
+    border-radius: 20px;
+}
+
+.logbtn{
+    border: 1px solid #33BBC5;
+    background-color: black;
+    font-weight: bolder;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.logout{
+    border: 1px solid #33BBC5;
+    background-color: black;
+    font-weight: bolder;
+    margin-left: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+.contact-container{
+    padding: 35px;
+    background-color: #33BBC5;
+    text-align: center;
+}
+.contact-container p{
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.contactFeatures{
+    margin: 40px 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    width: 50%;
+    height: 100%;
+    padding-top: 25px;
+    margin-right: 10px;
+}
+
+.googlmap{
+    width: 50%;
+    margin-left: 30px;
+}
